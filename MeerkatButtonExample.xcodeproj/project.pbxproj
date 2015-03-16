@@ -15,7 +15,6 @@
 		11DE2F651AB75700007777E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11DE2F631AB75700007777E4 /* LaunchScreen.xib */; };
 		11DE2F711AB75700007777E4 /* MeerkatButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F701AB75700007777E4 /* MeerkatButtonExampleTests.m */; };
 		11DE2F7F1AB7576E007777E4 /* MeerkatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DE2F7E1AB7576E007777E4 /* MeerkatButton.m */; };
-		11DE2F831AB76196007777E4 /* meerkat@2x.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 11DE2F821AB76196007777E4 /* meerkat@2x.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		11DE2F701AB75700007777E4 /* MeerkatButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeerkatButtonExampleTests.m; sourceTree = "<group>"; };
 		11DE2F7D1AB7576E007777E4 /* MeerkatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeerkatButton.h; sourceTree = "<group>"; };
 		11DE2F7E1AB7576E007777E4 /* MeerkatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeerkatButton.m; sourceTree = "<group>"; };
-		11DE2F821AB76196007777E4 /* meerkat@2x.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meerkat@2x.PNG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 		11DE2F7A1AB75747007777E4 /* MeerkatButton */ = {
 			isa = PBXGroup;
 			children = (
-				11DE2F821AB76196007777E4 /* meerkat@2x.PNG */,
 				11DE2F7D1AB7576E007777E4 /* MeerkatButton.h */,
 				11DE2F7E1AB7576E007777E4 /* MeerkatButton.m */,
 			);
@@ -215,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11DE2F831AB76196007777E4 /* meerkat@2x.PNG in Resources */,
 				11DE2F601AB75700007777E4 /* Main.storyboard in Resources */,
 				11DE2F651AB75700007777E4 /* LaunchScreen.xib in Resources */,
 				11DE2F621AB75700007777E4 /* Images.xcassets in Resources */,
@@ -432,6 +428,7 @@
 				11DE2F761AB75700007777E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11DE2F771AB75700007777E4 /* Build configuration list for PBXNativeTarget "MeerkatButtonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +437,7 @@
 				11DE2F791AB75700007777E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

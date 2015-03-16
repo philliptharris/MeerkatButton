@@ -31,9 +31,14 @@
     self.layer.borderColor = borderColor.CGColor;
 }
 
+- (void)setHighlighted:(BOOL)highlighted {
+    [super setHighlighted:highlighted];
+    self.backgroundColor = highlighted ? [UIColor colorWithWhite:0.4 alpha:1.0] : [UIColor whiteColor];
+}
+
 //===============================================
 #pragma mark -
-#pragma mark Initializers
+#pragma mark Initialization
 //===============================================
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -61,7 +66,6 @@
     self.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:22.0];
     
     [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
     [self setTitleShadowColor:[UIColor clearColor] forState:UIControlStateNormal];
     
     self.backgroundColor = [UIColor whiteColor];
@@ -73,13 +77,13 @@
     self.borderColor = [UIColor blackColor];
 }
 
+//===============================================
+#pragma mark -
+#pragma mark IB_DESIGNABLE
+//===============================================
+
 - (void)prepareForInterfaceBuilder {
     [self commonInit];
-}
-
-- (void)setHighlighted:(BOOL)highlighted {
-    [super setHighlighted:highlighted];
-    self.backgroundColor = highlighted ? [UIColor colorWithWhite:0.4 alpha:1.0] : [UIColor whiteColor];
 }
 
 @end
